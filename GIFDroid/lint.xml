@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
   Copyright (c) 2012 Curtis Larson (QuackWare).
   All rights reserved. This program and the accompanying materials
@@ -6,7 +6,5 @@
   which accompanies this distribution, and is available at
   http://www.gnu.org/licenses/gpl.html
 -->
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:title="@string/settings" android:id="@+id/settingsItem" android:icon="@drawable/ic_menu_settings"></item>
-</menu>
+<lint>
+</lint>
