@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="Video Preferences">
+      <EditTextPreference android:summary="How many frames per second you want to extract from the video." android:defaultValue="5"
+				android:title="FPS" android:key="editTextFPS" android:name="FPS" android:numeric="integer"/>
+      <EditTextPreference android:summary="The frames per second of the GIF image." android:defaultValue="5"
+				android:title="Delay" android:key="editTextDelay" android:name="Delay" android:numeric="integer"/>
+      <ListPreference android:summary="Width for GIF"
+				android:title="Width" android:key="listPreferenceWidth" android:name="Width"
+          android:entryValues="@array/widthStringArray" android:entries="@array/widthStringArray" android:defaultValue="720"/>
+      <ListPreference android:summary="Height for GIF"
+				android:title="Height" android:key="listPreferenceHeight" android:name="Height"
+          android:entryValues="@array/heightStringArray" android:entries="@array/heightStringArray" android:defaultValue="480"/>
+            <ListPreference android:summary="Choose the decoder to use based on your phone model."
+				android:title="Choose Frame Decoder" android:key="listPreferenceDecoder" android:name="Choose Frame Decoder"
+          android:entryValues="@array/frameDecoderArrayValues" android:entries="@array/frameDecoderArray" android:defaultValue="1"/>
+      </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/shareLinearLayout"
+    android:layout_gravity="center"
+>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/imgurLinearLayout"
+    android:layout_gravity="center"
+>
+    <TextView android:text="Imgur link: " android:id="@+id/imgurTextView" android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" android:drawableLeft="@drawable/imgur_icon"
+    android:gravity="center"></TextView>
+    <TextView android:text="" android:id="@+id/urlTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+</LinearLayout>

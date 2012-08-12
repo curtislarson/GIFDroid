@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="ERROR_GIF_CREATE">Error creating GIF. Please try selecting a smaller dimension or fewer frames.</string>
+<string name="WARNING_READ_ONLY">Your external storage is read only. Any GIFs created will not be saved to the filesystem.</string>
+<string name="WARNING_NO_READ_NOR_WRITE">External Storage Problem. Cannot read or write, any GIFs created will not be saved to the filesystem.</string>
+<string name="WARNING_SELECT_FRAME">Please select at least one frame</string>
+<string name="ERROR_THUMBNAIL">Error creating video thumbnail.</string>
+<string name="ERROR_GRAB_FRAMES">Memory exhausted. Please try a smaller fps, dimensions, or video interval.</string>
+<string name="ERROR_NO_PATH">Unable to retrieve path, please try again.</string>
+<string name="WARNING_OUTOFMEMORY">Warning: Your phone cannot handle the selected settings and is highly likely it will crash. Please choose a smaller FPS, dimensions, or video interval. Are you sure you wish to proceed?</string>
+<string name="WARNING_WATERMARK">GIF will contain watermark, purchase the key in marketplace to remove!</string>
+</resources>

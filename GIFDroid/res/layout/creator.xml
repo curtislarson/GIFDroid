@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/creatorLinLayout"
+    >
+<TextView  
+android:id="@+id/greeting"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<TextView android:text="FPS" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="" android:id="@+id/CA_ET_fps" 
+android:layout_width="wrap_content" android:layout_height="wrap_content">
+</EditText>
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/CA_BT_createGIF" android:text="Create DAT GIF"></Button>
+
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    > <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollLayout"
+    >
+    </LinearLayout></ScrollView>
+    
+
+</LinearLayout>

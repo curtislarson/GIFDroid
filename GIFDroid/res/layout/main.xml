@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="#FFFFFF">
+
+	<Button android:text="@string/selectVideo" android:id="@+id/selectVideo"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1" android:drawableLeft="@drawable/ic_select_video"
+		android:background="#000000" android:textColor="#FFFFFF"
+		android:paddingLeft="20dp" android:layout_margin="1dp">
+	</Button>
+	<Button android:id="@+id/recordVideo" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1"
+		android:drawableLeft="@drawable/ic_record" android:background="#000000"
+		android:text="@string/recordVideo" android:textColor="#FFFFFF"
+		android:paddingLeft="20dp" android:layout_margin="1dp">  </Button>
+	<Button android:id="@+id/viewGallery" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1"
+		android:drawableLeft="@drawable/ic_launcher" android:background="#000000"
+		android:text="@string/viewGallery" android:textColor="#FFFFFF"
+		android:paddingLeft="20dp" android:layout_margin="1dp" ></Button>
+</LinearLayout>

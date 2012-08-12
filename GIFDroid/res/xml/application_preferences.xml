@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="Video Preferences">
+      <CheckBoxPreference android:title="Show Popup" android:key="checkPreferenceShowPopup" android:name="Show Popup" 
+          android:enabled="true" android:defaultValue="true"/>
+      <Preference android:title="Purchase Unlock Key" android:key="preferencePurchase" android:name="Purchase Unlock Key" 
+          android:enabled="true"/>
+      </PreferenceCategory>
+</PreferenceScreen>

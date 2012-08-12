@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">GIFDroid</string>
+    <string name="mainActivity">Step 1: Select your video source.</string>
+<string name="exit">Exit</string>
+<string name="selectVideo">Select Video</string>
+<string name="recordVideo">Record Video</string>
+<string name="settings">Settings</string>
+<string name="previewActivity">Step 4: Preview your GIF.</string>
+<string name="creatorActivity">Choose your GIF settings</string>
+<string name="shareActivity">Share your GIF with the world!</string>
+<string name="intervalActivity">Step 2: Choose a video interval.</string>
+<string name="frameSelectorActivity">Step 3: Pick individual frames.</string>
+<string name="frameGrabberSpinner">Retrieving Video Frames</string>
+<string name="gifCreatorSpinner">Creating GIF</string>
+<string name="send_to">Share this GIF</string>
+<string name="viewGallery">View Created GIFs</string>
+<string name="crashSubject">Crash Report - GIFDroid</string>
+<string name="crashBody">Crash report dump from GIFDroid</string>
+
+
+<string name="createGIF">Create GIF</string>
+<string name="deleteGIF">Delete GIF</string>
+<string name="deselectAll">Deselect All</string>
+<string name="next">Next</string>
+<string name="editPrefs">Edit GIF Preferences</string>
+<string name="rename">Rename</string>
+<string name="selectAll">Select All</string>
+<string name="share">Share</string>
+<string name="playPause">Play/Pause</string>
+<string name="createAnother">Create Another</string>
+
+<string name="greetTitle">Welcome!</string>
+<string name="greetMessage">GIFDroid is currently in beta. Please report any bugs you may find!</string>
+<string name="greetMessageAndDonate">GIFDroid is currently in beta. Please report any bugs you may find! If you want to remove the watermark buy the key in the marketplace!</string>
+<string-array name="heightStringArray">
+    <item>420</item>
+    <item>200</item>
+    <item>100</item>
+</string-array>
+<string-array name="widthStringArray">
+    <item>780</item>
+    <item>200</item>
+    <item>100</item>
+</string-array>
+<string-array name="frameDecoderArray">
+    <item>Android MediaMetadataRetriever (Android 2.3.4+)</item>
+    <item>FFMpeg</item>
+</string-array>
+<string-array name="frameDecoderArrayValues">
+    <item>0</item>
+    <item>1</item>
+</string-array>
+
+<string-array name="frameDecoderArrayFFMPEG">
+    <item>FFMpeg</item>
+</string-array>
+
+<string-array name="frameDecoderArrayFFMPEGValues">
+    <item>1</item>
+</string-array>
+
+<string-array name="frameDecoderArrayMMDR">
+    <item>Android MediaMetadataRetriever (Android 2.3.4+)</item>
+</string-array>
+
+<string-array name="frameDecoderArrayMMDRValues">
+    <item>0</item>
+</string-array>
+</resources>

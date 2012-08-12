@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="Theme.GIFDroid" parent="android:Theme">
+<item name="android:background">@android:color/background_light</item>
+</style>
+
+<style name="LightThemeSelector" parent="android:Theme.Light">
+</style>
+</resources>

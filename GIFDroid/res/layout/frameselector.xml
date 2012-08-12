@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <GridView
+        android:id="@+id/bitmapgridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:orientation="vertical" 
+        android:background="#FFFFFF">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" 
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/selectAllFrameButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/selectAll"
+                android:drawableLeft="@drawable/plus" 
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:background="#000000"
+                android:textColor="#FFFFFF">
+            </Button>
+
+            <Button
+                android:id="@+id/deselectAllFrameButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/deselectAll"
+                android:drawableLeft="@drawable/minus"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:background="#000000"
+                android:textColor="#FFFFFF">
+            </Button>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/createGifButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:text="@string/createGIF"
+            android:layout_margin="1dp"
+            android:drawableLeft="@drawable/plusgif"
+            android:paddingLeft="20dp"
+            android:background="#000000"
+                android:textColor="#FFFFFF" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
