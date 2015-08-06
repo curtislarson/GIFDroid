@@ -1,4 +1,6 @@
 GIFDroid
 ========
 
-Android Vidoe to GIF converter.
+Android Video to GIF converter.
+
+http://www.curtismlarson.com
